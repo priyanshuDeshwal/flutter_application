@@ -33,7 +33,7 @@ class ExpenseTrackerState extends State<ExpenseTracker> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          const Text('Enter your monthly income and expenses:'),
+          const Text('Enter monthly income and expenses:'),
           TextField(
             controller: _incomeController,
             keyboardType: TextInputType.number,
